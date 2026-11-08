@@ -93,36 +93,6 @@ StudentVerse is an all-in-one digital operating system engineered specifically f
 
 ---
 
-## 🚀 Quick Start Guide
-
-### 1. Clone & Install Dependencies
-\`\`\`bash
-git clone https://github.com/your-username/studentverse.git
-cd studentverse
-npm install
-\`\`\`
-
-### 2. Configure Environment Variables
-Copy `.env.example` to `.env`:
-\`\`\`bash
-cp .env.example .env
-\`\`\`
-
-Populate your keys:
-\`\`\`env
-# Supabase Configuration
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key-here
-
-# Optional: Google Gemini API Key (or enter directly in Settings UI)
-VITE_GEMINI_API_KEY=your-gemini-api-key-here
-
-# Application Base URL
-VITE_APP_URL=http://localhost:3000
-\`\`\`
-
-*(Note: StudentVerse operates in offline-ready mode with local storage persistence out of the box even before configuring cloud keys!)*
-
 ### 3. Run Development Server
 \`\`\`bash
 npm run dev
